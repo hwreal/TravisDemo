@@ -12,6 +12,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        let ret = Math.add(a: 10, b: 13)
+        print("ret:\(ret)")
     }
 
 
