@@ -1,2 +1,4 @@
 language: swift
+xcode_project: TravisDemo.xcodeproj # path to your xcodeproj folder
+xcode_scheme: TravisDemo
 osx_image: xcode12.2
