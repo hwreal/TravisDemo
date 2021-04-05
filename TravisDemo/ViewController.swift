@@ -13,6 +13,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
+        view.backgroundColor = .red
+        
         let ret = Math.add(a: 10, b: 13)
         print("ret:\(ret)")
     }
